@@ -13,7 +13,9 @@ jobs:
         with:
           github_user_name: MarcondesKaua
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#00ff00&color_dots=#161b22,#00441b,#006d2c,#238b45,#41ab5d
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
